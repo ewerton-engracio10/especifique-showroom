@@ -16,7 +16,7 @@
   <header class="site-header">
     <div class="container header-inner">
       <a class="brand" href="#inicio">
-        <img src="assets/logo-symbol.png" alt="Logo Especifique">
+        <img src="assets/logo-symbol.webp" alt="Logo Especifique">
         <div class="brand-text">
           <strong>ESPECIFIQUE</strong>
           <span>SOLUÇÕES PARA A CONSTRUÇÃO</span>
@@ -32,8 +32,11 @@
         <a href="#contato">Contato</a>
       </nav>
       <div class="header-actions">
-        <a class="btn btn-outline" href="https://wa.me/5551992244417" target="_blank" rel="noopener">(51) 99224-4417</a>
-        <a class="btn btn-gold" href="#contato">Solicitar atendimento <span>→</span></a>
+        <a class="btn btn-gold btn-whatsapp" href="https://wa.me/5551992244417" target="_blank" rel="noopener">
+          <img src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/whatsapp.svg" alt="" aria-hidden="true">
+          <span>Solicitar atendimento</span>
+          <span aria-hidden="true">→</span>
+        </a>
       </div>
     </div>
   </header>
@@ -55,7 +58,7 @@
             <source src="assets/video-hero.mp4" type="video/mp4">
           </video>
           <div class="hero-logo-panel">
-            <img src="assets/logo-symbol.png" alt="Especifique">
+            <img src="assets/logo-symbol.webp" alt="Especifique">
             <div>
               <strong>ESPECIFIQUE</strong>
               <span>SOLUÇÕES PARA A CONSTRUÇÃO</span>
@@ -138,14 +141,29 @@
     </section>
 
     <section class="gallery section" id="showroom">
-      <div class="container gallery-grid">
-        <div class="gallery-main">
-          <img src="assets/hero-room.jpg" alt="Ambiente interno da Especifique">
+      <div class="container">
+        <div class="gallery-heading">
+          <p class="eyebrow">SHOWROOM ESPECIFIQUE</p>
+          <h2>Ambientes reais. Soluções de perto.</h2>
+          <p>Uma seleção do showroom e dos ambientes apresentados pela própria Especifique.</p>
         </div>
-        <div class="gallery-side">
-          <img src="assets/kitchen.jpg" alt="Ambiente de cozinha no showroom">
-          <img src="assets/sign-view.jpg" alt="Placa da Especifique vista de fora">
-          <img src="assets/facade.jpg" alt="Fachada do showroom">
+        <div class="gallery-editorial">
+          <figure class="gallery-main">
+            <img src="assets/hero-room.jpg" alt="Ambiente interno da Especifique">
+          </figure>
+          <div class="gallery-right">
+            <figure class="gallery-wide">
+              <img src="assets/kitchen.jpg" alt="Ambiente de cozinha no showroom">
+            </figure>
+            <div class="gallery-bottom">
+              <figure><img src="assets/facade.jpg" alt="Fachada do showroom"></figure>
+              <figure><img src="assets/sign-view.jpg" alt="Placa da Especifique vista de fora"></figure>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-meta">
+          <span>AMBIENTES REAIS • DETALHES • FACHADA • SHOWROOM</span>
+          <a href="https://www.instagram.com/showroomespecifique/" target="_blank" rel="noopener">Ver mais no Instagram <span>→</span></a>
         </div>
       </div>
     </section>
@@ -173,14 +191,40 @@
           <p class="eyebrow">FALE COM A ESPECIFIQUE</p>
           <h2>Solicite atendimento técnico</h2>
           <p>Conte um pouco sobre o seu projeto e nossa equipe entrará em contato.</p>
-          <ul>
-            <li><strong>(51) 99224-4417</strong></li>
-            <li><strong>contato@especifiquehro.com.br</strong></li>
-            <li><strong>@showroomespecifique</strong></li>
-            <li><strong>Av. Pátria, 1149 - São Geraldo<br>Porto Alegre - RS, 90230-071</strong></li>
-          </ul>
+
+          <div class="contact-cards">
+            <a class="contact-card contact-card-whatsapp" href="https://wa.me/5551992244417" target="_blank" rel="noopener">
+              <span class="contact-icon social-icon whatsapp-icon"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/whatsapp.svg" alt="WhatsApp"></span>
+              <span class="contact-card-copy"><small>WhatsApp</small><strong>(51) 99224-4417</strong><em>Abrir conversa</em></span>
+              <span class="contact-arrow" aria-hidden="true">→</span>
+            </a>
+
+            <a class="contact-card" href="mailto:contato@especifiquehro.com.br">
+              <span class="contact-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 5h18v14H3z"/><path d="m3 6 9 7 9-7"/></svg>
+              </span>
+              <span class="contact-card-copy"><small>E-mail</small><strong class="single-line">contato@especifiquehro.com.br</strong><em>Enviar e-mail</em></span>
+              <span class="contact-arrow" aria-hidden="true">→</span>
+            </a>
+
+            <a class="contact-card contact-card-instagram" href="https://www.instagram.com/showroomespecifique/" target="_blank" rel="noopener">
+              <span class="contact-icon social-icon instagram-icon"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/instagram.svg" alt="Instagram"></span>
+              <span class="contact-card-copy"><small>Instagram</small><strong class="single-line">@showroomespecifique</strong><em>Abrir Instagram</em></span>
+              <span class="contact-arrow" aria-hidden="true">→</span>
+            </a>
+
+            <a class="contact-card" href="https://www.google.com/maps/search/?api=1&query=Av.%20P%C3%A1tria%2C%201149%20-%20S%C3%A3o%20Geraldo%2C%20Porto%20Alegre%20-%20RS%2C%2090230-071" target="_blank" rel="noopener">
+              <span class="contact-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20 10c0 5-8 11-8 11S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+              </span>
+              <span class="contact-card-copy"><small>Endereço</small><strong class="address-lines"><span>Av. Pátria, 1149</span><span>São Geraldo • Porto Alegre - RS</span><span>CEP 90230-071</span></strong><em>Abrir no mapa</em></span>
+              <span class="contact-arrow" aria-hidden="true">→</span>
+            </a>
+          </div>
         </div>
-        <form class="contact-form" id="leadForm">
+
+        <form class="contact-form contact-form-panel" id="leadForm">
+          <p class="contact-form-kicker">ENVIE SUA SOLICITAÇÃO</p>
           <div class="form-grid">
             <input type="text" name="nome" placeholder="Nome completo*" required>
             <input type="email" name="email" placeholder="E-mail*" required>
@@ -199,7 +243,7 @@
   <footer class="site-footer">
     <div class="container footer-inner">
       <a class="brand footer-brand" href="#inicio">
-        <img src="assets/logo-symbol.png" alt="Logo Especifique">
+        <img src="assets/logo-symbol.webp" alt="Logo Especifique">
         <div class="brand-text">
           <strong>ESPECIFIQUE</strong>
           <span>SOLUÇÕES PARA A CONSTRUÇÃO</span>
@@ -213,7 +257,14 @@
         <a href="#showroom">Showroom</a>
         <a href="#contato">Contato</a>
       </nav>
-      <small>© 2026 Especifique. Todos os direitos reservados.</small>
+      <div class="footer-actions">
+        <span>Fale conosco</span>
+        <div class="footer-socials">
+          <a href="https://wa.me/5551992244417" target="_blank" rel="noopener" aria-label="WhatsApp"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/whatsapp.svg" alt=""></a>
+          <a href="https://www.instagram.com/showroomespecifique/" target="_blank" rel="noopener" aria-label="Instagram"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/instagram.svg" alt=""></a>
+        </div>
+      </div>
+      <small>© 2026 Especifique.<br>Todos os direitos reservados.</small>
     </div>
   </footer>
   <script src="script.js"></script>
