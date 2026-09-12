@@ -121,7 +121,7 @@ img,video{display:block;max-width:100%}
 .instagram-icon img{filter:invert(31%) sepia(86%) saturate(3148%) hue-rotate(301deg) brightness(95%) contrast(97%)}
 .contact-card-copy{min-width:0;display:flex;flex-direction:column}
 .contact-card-copy small{font-size:14px;font-style:normal;color:#f4f4ef;margin-bottom:6px;font-weight:700}
-.contact-card-copy strong{font-size:15px;line-height:1.32;color:#fff;overflow-wrap:normal;word-break:normal}
+.contact-card-copy strong{font-size:15px;line-height:1.32;color:#fff;overflow-wrap:anywhere;word-break:normal}
 .contact-card-copy strong.single-line{white-space:nowrap;font-size:14px;letter-spacing:-.01em}
 .contact-card-copy strong.address-lines{display:flex;flex-direction:column;gap:2px;white-space:normal;font-size:15px;line-height:1.35}
 .contact-card-copy em{margin-top:7px;font-size:12px;font-style:normal;color:#999}
