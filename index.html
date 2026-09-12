@@ -11,6 +11,15 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="icon" href="assets/logo-symbol.webp" type="image/webp">
   <link rel="stylesheet" href="styles.css">
+
+  <style>
+    .contact-card{gap:12px;padding:18px 16px}
+    .contact-icon{width:50px;height:50px}
+    .contact-card-copy strong.contact-one-line{white-space:nowrap;overflow-wrap:normal;word-break:normal;font-size:13px;letter-spacing:-.02em}
+    .contact-card-copy strong.address-lines{display:flex;flex-direction:column;gap:2px;white-space:normal;overflow-wrap:normal;word-break:normal;font-size:14px;line-height:1.35}
+    .contact-arrow{font-size:20px}
+    @media(max-width:640px){.contact-card-copy strong.contact-one-line{font-size:12.5px}}
+  </style>
 </head>
 <body>
   <header class="site-header">
@@ -93,11 +102,26 @@
           <a href="https://www.instagram.com/showroomespecifique/" target="_blank" rel="noopener">Ver no Instagram →</a>
         </div>
         <div class="solution-grid">
-          <a class="solution-card" href="#showroom"><img src="assets/bathroom.jpg" alt="Banheiro e acabamento"><span>Banheiros</span></a>
-          <a class="solution-card" href="#showroom"><img src="assets/corridor.jpg" alt="Corredor externo do showroom"><span>Acabamentos</span></a>
-          <a class="solution-card" href="#showroom"><img src="assets/led-detail.jpg" alt="Detalhe de iluminação"><span>Detalhes</span></a>
-          <a class="solution-card" href="#showroom"><img src="assets/glass-tech.jpg" alt="Estrutura de vidro e tecnologia"><span>Projetos</span></a>
-          <a class="solution-card" href="#showroom"><img src="assets/facade.jpg" alt="Fachada do showroom"><span>Showroom</span></a>
+          <a class="solution-card" href="#showroom">
+            <img src="assets/bathroom.jpg" alt="Banheiro e acabamento">
+            <span>Banheiros</span>
+          </a>
+          <a class="solution-card" href="#showroom">
+            <img src="assets/corridor.jpg" alt="Corredor externo do showroom">
+            <span>Acabamentos</span>
+          </a>
+          <a class="solution-card" href="#showroom">
+            <img src="assets/led-detail.jpg" alt="Detalhe de iluminação">
+            <span>Detalhes</span>
+          </a>
+          <a class="solution-card" href="#showroom">
+            <img src="assets/glass-tech.jpg" alt="Estrutura de vidro e tecnologia">
+            <span>Projetos</span>
+          </a>
+          <a class="solution-card" href="#showroom">
+            <img src="assets/facade.jpg" alt="Fachada do showroom">
+            <span>Showroom</span>
+          </a>
         </div>
       </div>
     </section>
@@ -105,7 +129,9 @@
     <section class="showroom-block" id="sobre">
       <div class="showroom-grid-wide">
         <div class="showroom-media">
-          <video class="media-cover" autoplay muted loop playsinline preload="metadata" poster="assets/hero-room.jpg"><source src="assets/video-showroom.mp4" type="video/mp4"></video>
+          <video class="media-cover" autoplay muted loop playsinline preload="metadata" poster="assets/hero-room.jpg">
+            <source src="assets/video-showroom.mp4" type="video/mp4">
+          </video>
         </div>
         <div class="showroom-copy">
           <p class="eyebrow">ESPECIFIQUE</p>
@@ -113,7 +139,13 @@
           <p>Um espaço em Porto Alegre para você conhecer de perto o ambiente da Especifique, tirar dúvidas com a equipe e encontrar soluções para o seu projeto.</p>
           <a class="btn btn-outline-gold" href="https://www.google.com/maps/search/?api=1&query=Av.%20P%C3%A1tria%2C%201149%20-%20S%C3%A3o%20Geraldo%2C%20Porto%20Alegre%20-%20RS%2C%2090230-071" target="_blank" rel="noopener">Como chegar <span>→</span></a>
         </div>
-        <div class="showroom-side"><div class="plus">+</div><span>PROJETOS</span><span>IDEIAS</span><span>SOLUÇÕES</span><span>RESULTADOS</span></div>
+        <div class="showroom-side">
+          <div class="plus">+</div>
+          <span>PROJETOS</span>
+          <span>IDEIAS</span>
+          <span>SOLUÇÕES</span>
+          <span>RESULTADOS</span>
+        </div>
       </div>
     </section>
 
@@ -142,15 +174,23 @@
           <span>AMBIENTES REAIS • DETALHES • FACHADA • SHOWROOM</span>
           <a href="https://www.instagram.com/showroomespecifique/" target="_blank" rel="noopener">Ver mais no Instagram <span>→</span></a>
         </div>
-        </div>
-        <div class="gallery-meta"><span>AMBIENTES REAIS • DETALHES • FACHADA • SHOWROOM</span><a href="https://www.instagram.com/showroomespecifique/" target="_blank" rel="noopener">Ver mais no Instagram <span>→</span></a></div>
       </div>
     </section>
 
     <section class="brands-strip" id="marcas">
       <div class="container brands-inner">
-        <div><h3>Trabalhamos com soluções apresentadas no showroom</h3><p>Materiais e ambientes reais para apoiar a especificação do seu projeto.</p></div>
-        <div class="brand-tags"><span>Showroom</span><span>Ambientes</span><span>Acabamentos</span><span>Banheiros</span><span>Fachadas</span><span>e muito mais</span></div>
+        <div>
+          <h3>Trabalhamos com soluções apresentadas no showroom</h3>
+          <p>Materiais e ambientes reais para apoiar a especificação do seu projeto.</p>
+        </div>
+        <div class="brand-tags">
+          <span>Showroom</span>
+          <span>Ambientes</span>
+          <span>Acabamentos</span>
+          <span>Banheiros</span>
+          <span>Fachadas</span>
+          <span>e muito mais</span>
+        </div>
       </div>
     </section>
 
@@ -160,6 +200,7 @@
           <p class="eyebrow">FALE COM A ESPECIFIQUE</p>
           <h2>Solicite atendimento técnico</h2>
           <p>Conte um pouco sobre o seu projeto e nossa equipe entrará em contato.</p>
+
           <div class="contact-cards">
             <a class="contact-card contact-card-whatsapp" href="https://wa.me/5551992244417" target="_blank" rel="noopener">
               <span class="contact-icon social-icon whatsapp-icon"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/whatsapp.svg" alt="WhatsApp"></span>
@@ -171,13 +212,13 @@
               <span class="contact-icon" aria-hidden="true">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 5h18v14H3z"/><path d="m3 6 9 7 9-7"/></svg>
               </span>
-              <span class="contact-card-copy"><small>E-mail</small><strong class="single-line">contato@especifiquehro.com.br</strong><em>Enviar e-mail</em></span>
+              <span class="contact-card-copy"><small>E-mail</small><strong class="contact-one-line">contato@especifiquehro.com.br</strong><em>Enviar e-mail</em></span>
               <span class="contact-arrow" aria-hidden="true">→</span>
             </a>
 
             <a class="contact-card contact-card-instagram" href="https://www.instagram.com/showroomespecifique/" target="_blank" rel="noopener">
               <span class="contact-icon social-icon instagram-icon"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/instagram.svg" alt="Instagram"></span>
-              <span class="contact-card-copy"><small>Instagram</small><strong class="single-line">@showroomespecifique</strong><em>Abrir Instagram</em></span>
+              <span class="contact-card-copy"><small>Instagram</small><strong class="contact-one-line">@showroomespecifique</strong><em>Abrir Instagram</em></span>
               <span class="contact-arrow" aria-hidden="true">→</span>
             </a>
 
@@ -189,10 +230,18 @@
               <span class="contact-arrow" aria-hidden="true">→</span>
             </a>
           </div>
+        </div>
+
         <form class="contact-form contact-form-panel" id="leadForm">
           <p class="contact-form-kicker">ENVIE SUA SOLICITAÇÃO</p>
           <div class="form-grid">
-            <input type="text" name="nome" placeholder="Nome completo*" required><input type="email" name="email" placeholder="E-mail*" required><input type="text" name="empresa" placeholder="Empresa"><input type="tel" name="telefone" placeholder="Telefone*" required><input type="text" name="tipo" placeholder="Tipo de obra/projeto"><input type="text" name="solucao" placeholder="Solução de interesse"><textarea name="mensagem" placeholder="Mensagem (opcional)"></textarea>
+            <input type="text" name="nome" placeholder="Nome completo*" required>
+            <input type="email" name="email" placeholder="E-mail*" required>
+            <input type="text" name="empresa" placeholder="Empresa">
+            <input type="tel" name="telefone" placeholder="Telefone*" required>
+            <input type="text" name="tipo" placeholder="Tipo de obra/projeto">
+            <input type="text" name="solucao" placeholder="Solução de interesse">
+            <textarea name="mensagem" placeholder="Mensagem (opcional)"></textarea>
           </div>
           <button type="submit" class="btn btn-gold full-btn">Enviar solicitação <span>→</span></button>
         </form>
